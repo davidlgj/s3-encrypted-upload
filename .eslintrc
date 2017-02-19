@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true
+  },
+  "globals": {
+  },
+  "rules": {
+    "no-console": "off",
+    "no-param-reassign": ["error", {"props": false}],
+    "no-plusplus": "off",
+    "semi": ["error", "never"],
+    "no-confusing-arrow": "off",
+  }
+}

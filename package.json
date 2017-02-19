@@ -1,0 +1,25 @@
+{
+  "name": "s3-encrypted-upload",
+  "version": "1.0.0",
+  "description": "Simple S3 upload with client side AES encryption",
+  "bin": {
+    "s3-uploader": "index.js"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Jensen <david.lgj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.10.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.16.0",
+    "yargs": "^6.6.0"
+  }
+}
